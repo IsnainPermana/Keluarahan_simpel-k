@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Surat;
 
-class SuratController extends Controller
+class KelurahanController extends Controller
 {
     public function daftarSurat() {
     // Eager Loading relasi penduduk untuk menghemat query
